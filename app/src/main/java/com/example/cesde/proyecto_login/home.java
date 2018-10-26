@@ -32,7 +32,7 @@ public class home extends AppCompatActivity {
                 setContentView(R.layout.activity_home);
 
                 //Referencia de mi objeto e TV en el XML
-                tvHola = (TextView) findViewById(R.id.mensaje);
+                tvHola = (TextView) findViewById(R.id.bienv);
 
                 tvMensaje.setText("DIEGO - RONALDO");
 
