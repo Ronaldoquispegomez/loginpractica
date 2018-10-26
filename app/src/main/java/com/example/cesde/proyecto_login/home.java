@@ -13,6 +13,7 @@ public class home extends AppCompatActivity {
     //creamos un objeto
 
     TextView tvHola;
+    TextView tvMensaje;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,11 @@ public class home extends AppCompatActivity {
                         .setAction("Action", null).show();
 
                 setContentView(R.layout.activity_home);
+
+                //Referencia de mi objeto e TV en el XML
+                tvHola = (TextView) findViewById(R.id.bienv);
+
+                tvMensaje.setText("DIEGO - RONALDO");
 
             }
         });
